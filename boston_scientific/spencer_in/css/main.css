@@ -74,7 +74,14 @@ footer {
   font-size: 1em;
   display: flex;
   justify-content: space-between;
-  margin: 2em 0.5em 0;
+  padding: 0 1em;
+  background-color: #000;
+  color: #fff;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
 }
 
 /* ul li.no_list_style {
@@ -129,7 +136,7 @@ footer {
   /* .lower_level_area_a_layouts {
     background-color: red;
   } */
-  footer {
+  /* footer {
     margin-top: 2em;
-  }
+  } */
 }
