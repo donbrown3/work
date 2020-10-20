@@ -5,9 +5,29 @@
 
 html {
   box-sizing: border-box;
+  background-color: #eee;
 }
 
 body {
   font-size: 100%;
   font-family: "Roboto", sans-serif;
+  background-color: #fff;
+}
+
+
+/* ? media queries */
+@media only screen and (min-width: 750px) {
+  body {
+    min-width: 750px;
+    max-width: 900px;
+    margin: 1em auto;
+  }
+   
+  #main_nav {
+    display: flex;
+  }
+
+  #mobile_nav {
+    display: none;
+  }
 }

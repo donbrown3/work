@@ -1,5 +1,5 @@
 body {
-  margin: 0.5em 0;
+  margin: 0.5em 0 0 0;
   font-family: "Roboto", sans-serif;
 }
 
@@ -75,8 +75,9 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 0 1em;
-  background-color: #000;
+  background-color:#3eb049;
   color: #fff;
+  font-weight: 700;
 }
 
 footer a {

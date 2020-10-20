@@ -2,6 +2,7 @@ html {
   background-color: #eee;
 }
 
+
 body {
   max-width: 750px;
   margin: 0 auto ;
@@ -9,13 +10,17 @@ body {
 }
 
 main {
-  min-height: 85vh;
+  min-height: 60vh;
 }
 
 main h1 {
   margin: 0;
   text-align: center;
   padding-top: 1em;
+}
+
+main h2 {
+  margin-left: 1em;
 }
 
 main ul {

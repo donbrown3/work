@@ -1,0 +1,36 @@
+#main_nav { 
+  /* display: flex; */
+  justify-content: space-between;
+  padding: .7em;
+  font-size: 150%;
+  background-color: #3eb049;
+  color: #fff;
+}
+
+#main_nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+#main_nav ul li {
+  width: 120px;
+  text-align: center;
+}
+
+#main_nav ul a {
+  text-decoration: none;
+  margin: .5em 0;
+  color: #fff;
+}
+
+#main_nav ul a:hover, #main_nav ul a:focus {
+  font-weight: 700;
+}
+
+#main_nav {
+  display: none;
+}
+
+.slicknav_menu {
+  background-color: #3eb049;
+}
