@@ -1,5 +1,5 @@
 body {
-  margin: 0.5em 0 0 0;
+  margin: 0;
   font-family: "Roboto", sans-serif;
 }
 
@@ -89,6 +89,11 @@ footer a {
   list-style-type: none;
 } */
 
+.red {
+  color: red;
+  font-weight: 700;
+}
+
 @media (min-width: 750px) {
   html {
     background-color: #eee;
@@ -140,4 +145,22 @@ footer a {
   /* footer {
     margin-top: 2em;
   } */
+
+  #main_nav {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  #main_nav ul, #main_nav p {
+    margin: .4em;
+  }
+
+  #main_nav p {
+    line-height: 1.7;
+  }
+
+  #mobile_nav {
+    display: none;
+  }
 }

@@ -1,8 +1,8 @@
 "use strict";
 
-let $ = function(id){
-  return document.getElementById(id);
-}
+// let $ = function(id){
+//   return document.getElementById(id);
+// }
 
 let toggle = function(){
   let h4 = this;                  // the clicked h4
@@ -26,7 +26,7 @@ let toggle = function(){
 
 window.onload = function(){
   // get h4 tags
-  let layouts = $("layouts");
+  let layouts = document.getElementById("layouts");
   let elements = layouts.getElementsByTagName("h4");
   // console.log(elements);
 
@@ -38,3 +38,4 @@ window.onload = function(){
     evt.attach(h4, "click", toggle);
   }
 }
+
