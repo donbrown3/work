@@ -27,7 +27,15 @@ main h2 {
 main ul {
   list-style-type: none;
   /* margin-top: 1em; */
-  padding: 1em 1.3em;
+  padding: 0 1.3em;
+}
+
+main ul li {
+  padding-top: 1em;
+}
+
+main ul li:last-of-type {
+  padding-bottom: 2em;
 }
 
 main ul li address {

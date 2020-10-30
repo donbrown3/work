@@ -1,0 +1,8 @@
+main ul {
+  list-style-type: none;
+  padding-left: 1em;
+}
+
+main ul li {
+  padding-top: 1em;
+}

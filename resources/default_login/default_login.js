@@ -1,6 +1,6 @@
 (function listDevices(){
   let devices = [
-    {section: 'gallagher', name: 'Gallagher Controller', address: '192.168.1.199/config', username: 'config', password: 'CardaxFT'},{section: 'life_safety', name: 'Life Safety', address: '192.168.1.9', username: 'admin', password: 'admin'}
+    {section: 'axis', name: 'Axis', address: '192.168.0.90', username: 'requested at login (old models: root)', password: 'requested at login (old models: pass)'},{section: 'gallagher', name: 'Gallagher Controller', address: '192.168.1.199/config', username: 'config', password: 'CardaxFT'},{section: 'life_safety', name: 'Life Safety', address: '192.168.1.9', username: 'admin', password: 'admin'}
     ];
 
   let article = document.getElementById('default_info');

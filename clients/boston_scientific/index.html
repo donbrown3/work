@@ -6,10 +6,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../../css/normalize.css">
   <link rel="stylesheet" href="../../css/slicknav.css">
-  <link rel="stylesheet" href="../../css/client.css">
   <link rel="stylesheet" href="../../css/main_nav.css">
   <link rel="stylesheet" href="../../css/footer.css">
   <link rel="stylesheet" href="../../css/main.css">
+  <link rel="stylesheet" href="../../css/client.css">
   <script src="https://kit.fontawesome.com/50ffcbd4f2.js" crossorigin="anonymous"></script>
   <title>Boston Scientific</title>
 </head>
@@ -17,14 +17,19 @@
   <nav id="mobile_nav"></nav>
   <nav id="main_nav">
     <p>Tech Resources</p>
-    <ul>
+    <ul id="links">
       <li><a href="../../index.html">Home</a></li>
       <li><a href="../../products/index.html">Products</a></li>
       <li><a href="../../clients/index.html">Clients</a></li>
-      <li><a href="../../resources/index.html">Resources</a></li>
+      <li>
+        <a href="index.html" class="last">Resources</a>
+        <ul>
+          <li><a href="../../resources/default_login/index.html">Defaults</a></li>
+          <li><a href="../../resources/manuals/index.html">Manuals</a></li>
+        </ul>
+      </li>
     </ul>
   </nav>
-
   <main>
     <h1>Boston Scientific</h1>
     <h2>Locations</h1>
