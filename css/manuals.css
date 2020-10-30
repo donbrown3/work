@@ -1,0 +1,38 @@
+h1 {
+  margin-left: 2rem;
+}
+
+#manuals_list img {
+  display: block;
+  width: 80%;
+  margin: 1em auto;
+}
+
+#manuals_list p {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#manuals_list .hidden {
+  display: none;
+}
+
+/* ? media queries */
+@media only screen and (min-width: 750px) {
+  #manuals_list .manual {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #manuals_list img.hidden + p {
+    margin: 0 auto 1em 2.8em;
+  }
+
+  #manuals_list img {
+    padding-top: 2em;
+    order: 2;
+    width: 50%;
+    margin: 0;
+  }
+
+}
