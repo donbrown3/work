@@ -4,7 +4,7 @@ h1 {
 
 #manuals_list img {
   display: block;
-  width: 80%;
+  width: 50%;
   margin: 1em auto;
 }
 
@@ -21,17 +21,23 @@ h1 {
 @media only screen and (min-width: 750px) {
   #manuals_list .manual {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+  }
+
+  #manuals_list p {
+    margin-left: 5.5em;
   }
 
   #manuals_list img.hidden + p {
-    margin: 0 auto 1em 2.8em;
+    margin: 0 auto 1em 5.5em;
   }
 
+
   #manuals_list img {
+    padding-right: 5em;
     padding-top: 2em;
     order: 2;
-    width: 50%;
+    width: 30%;
     margin: 0;
   }
 
