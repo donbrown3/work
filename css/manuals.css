@@ -10,11 +10,7 @@ h1 {
 
 #manuals_list p {
   text-align: center;
-  margin-bottom: 1rem;
-}
-
-#manuals_list .hidden {
-  display: none;
+  margin-bottom: 1em;
 }
 
 /* ? media queries */
@@ -25,13 +21,13 @@ h1 {
   }
 
   #manuals_list p {
-    margin-left: 5.5em;
+    text-align: left;
+    margin-left: 3.5em;
   }
 
-  #manuals_list img.hidden + p {
-    margin: 0 auto 1em 5.5em;
+  .column {
+    padding: 3em;
   }
-
 
   #manuals_list img {
     padding-right: 5em;
