@@ -8,9 +8,9 @@ let s2List = [
     input3: 'Not Used', 
     input4: 'From Output 1(comm on top)',
     output1: 'To Input 4',
-    output2: 'Bypass +24v',
-    output3: 'Reset +24v', 
-    output4: 'Follower onValidCardRead(used for auto opener)'
+    output2: 'Follower onValidCardRead(used for auto opener)',
+    output3: 'Bypass +24v', 
+    output4: 'Reset +24v'
   }
 ]
 

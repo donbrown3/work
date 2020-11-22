@@ -1,11 +1,11 @@
 h2 {
-  margin: .7em ;
+  margin: .5em .7em;
 }
 
 h3 {
   margin-left: 1em;
   margin-bottom: .5em;
-  margin-top: 1em;
+  margin-top: .7em;
 }
 
 h4 {
@@ -18,13 +18,47 @@ h4 {
 }
 
 #gallagher_layout ul li {
-  margin-top: .3em;
+  margin-top: 0.3em;
 }
 
 #gallagher_layout ul li ul li:last-of-type {
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
 }
 
 article {
   margin-bottom: 2em;
+}
+
+/** S2 layouts */
+.s2_layout h3 {
+  margin-left: 1em;
+}
+
+.s2_layout h4 {
+  margin-top: 0.7em;
+}
+
+.s2_layout-div {
+  margin-left: 1.2em;
+  margin-right: 1.2em;
+}
+
+.s2_layout-div:nth-child(odd) {
+ background-color: #eee;
+}
+
+.s2_layout-div:last-of-type {
+  margin-bottom: 2em;
+}
+
+.s2_layout-div ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 0.3em;
+}
+
+.s2_layout-div h4 { margin-bottom: 0.3em; }
+
+.s2_layout-div ul li {
+  margin-top: 0.1em;
 }
