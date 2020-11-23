@@ -32,6 +32,7 @@ function showS2Layout(list) {
                 <div class="s2_layout-div">
                   <h4><strong>Door: </strong>${door.name}</h4>
                   <p><strong>Box:</strong> ${door.box}: <strong>Blade:</strong> ${door.blade}</p>
+                  <p><strong>Reader:</strong> ${door.reader}</p>
                   ${inputUl}
                   ${outputUl}
                 </div>
