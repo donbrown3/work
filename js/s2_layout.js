@@ -13,7 +13,7 @@ function showS2Layout(list) {
         continue;
       }
       inputUl += `
-                  <li><strong>Input ${i + 1}:</strong>${door.inputs[i]}</li>
+                  <li><strong>Input ${i + 1}:</strong> ${door.inputs[i]}</li>
                   `;
     }
     inputUl += '</ul>';
@@ -23,7 +23,7 @@ function showS2Layout(list) {
         continue;
       }
       outputUl += `
-                  <li><strong>Output ${i + 1}:</strong>${door.outputs[i]}</li>
+                  <li><strong>Output ${i + 1}: </strong>${door.outputs[i]}</li>
                   `;
     }
     outputUl += '</ul>';

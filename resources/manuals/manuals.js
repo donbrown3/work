@@ -6,9 +6,56 @@
 
     {name: 'HES 7000 Series Strikes', image: '../../images/locks/7000_series_1.jpg', file: '../../files/pdfs/hes_7000_series.pdf', additional: []},
      
-    {name: 'Magnalock M32, M62, and M82B', image: '../../images/locks/magnalock.jpeg', file: '../../files/pdfs/magnalock_m32_m62_m82b.pdf', additional: []},
+    {
+      name: 'Magnalock M32, M62, and M82B', 
+      image: '../../images/locks/magnalock.jpeg', 
+      file: '../../files/pdfs/magnalock_m32_m62_m82b.pdf', 
+      additional: []
+    },
     
-    {name: 'S2 Netbox Installation Manual', image: '../../images/controllers/s2_netbox.jpg', file: '../../files/pdfs/s2_netbox_installation_manual.pdf', additional: [{name: 'S2 Netbox Users Guide', file: '../../files/pdfs/s2_netbox_users_guide.pdf',}, {name: 'S2 End User Training', file: '../../files/pdfs/s2_enduser_training.pdf' }]}, 
+    {
+      name: 'S2 Netbox Installation Manual', 
+      image: '../../images/controllers/s2_netbox.jpg', 
+      file: '../../files/pdfs/s2_netbox_installation_manual.pdf', 
+      additional: 
+      [
+        {
+          name: 'S2 Netbox Users Guide', 
+          file: '../../files/pdfs/s2_netbox_users_guide.pdf'
+        }, 
+        {
+          name: 'S2 End User Training', 
+          file: '../../files/pdfs/s2_enduser_training.pdf' 
+        }
+      ]
+    },
+    {
+      name: 'LifeSafety FPO', 
+      image: '../../images/power_supplies/lifesafety_logo.jpg', 
+      file: '../../files/pdfs/lifesafety_fpo.pdf',
+      additional: [
+        {
+          name: 'LifeSafety Netlink',
+          file: '../../files/pdfs/lifesafety_netlink.pdf'
+        },
+        {
+          name: 'LifeSafety B100',
+          file: '../../files/pdfs/lifesafety_b100.pdf'
+        },
+        {
+          name: 'LifeSafety C4/C8',
+          file: '../../files/pdfs/lifesafety_c4c8.pdf'
+        },
+        {
+          name: 'LifeSafety M8',
+          file: '../../files/pdfs/lifesafety_m8.pdf'
+        },
+        {
+          name: 'LifeSafety D8',
+          file: '../../files/pdfs/lifesafety_d8.pdf'
+        }
+      ]
+    }
     
   ];
 

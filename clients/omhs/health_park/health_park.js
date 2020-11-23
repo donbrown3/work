@@ -9,7 +9,7 @@ let omhsHealthParkFirstFloorExt = {
       box: 1,
       blade: 4,
       inputs: ['DPS', 'REX', null, 'From output 4'],
-      outputs: ['To Input 1', 'Follower - onValidCardRead', 'Bypas +24v', 'Reset +24v']
+      outputs: ['To Input 1', 'Follower - onValidCardRead', 'Bypass +24v', 'Reset +24v']
     },
     {
       name: 'Ford Center Rear Hallay',
