@@ -6,8 +6,7 @@ let omhsHealthParkFirstFloorExt = {
   doors: [
     {
       name: 'Outpatient Imaging Corridor (iMXDa\'s w/opener)',
-      box: 1,
-      ip: '(xxx.xxx.15.249)',
+      box: '1 (xxx.xxx.15.249)',
       blade: 4,
       reader: 1,
       inputs: ['DPS', 'REX', 'Not Used', 'From output 1'],
@@ -15,8 +14,7 @@ let omhsHealthParkFirstFloorExt = {
     },
     {
       name: 'Ford Center Rear Hallay',
-      box: 1,
-      ip: '(xxx.xxx.15.249)',
+      box: '1 (xxx.xxx.15.249)',
       blade: 5,
       reader: 1, 
       inputs: ['DPS', 'REX', null, null],

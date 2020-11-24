@@ -1,14 +1,14 @@
-'use strict';
+"use strict";
 
 function showS2Layout(list) {
   let html = `<h3>${list.name}</h3>`;
 
-  list.doors.forEach(function(door) {
-    let divHtml = '';
-    let inputUl = '<ul>';
-    let outputUl = '<ul>';
+  list.doors.forEach(function (door) {
+    let divHtml = "";
+    let inputUl = "<ul>";
+    let outputUl = "<ul>";
     //* build inputs
-    for(let i = 0; i < door.inputs.length; i++){
+    for (let i = 0; i < door.inputs.length; i++) {
       if (door.inputs[i] === null) {
         continue;
       }
@@ -16,9 +16,9 @@ function showS2Layout(list) {
                   <li><strong>Input ${i + 1}:</strong> ${door.inputs[i]}</li>
                   `;
     }
-    inputUl += '</ul>';
+    inputUl += "</ul>";
     //* build outputs
-    for(let i = 0; i < door.outputs.length; i++){
+    for (let i = 0; i < door.outputs.length; i++) {
       if (door.outputs[i] === null) {
         continue;
       }
@@ -26,24 +26,23 @@ function showS2Layout(list) {
                   <li><strong>Output ${i + 1}: </strong>${door.outputs[i]}</li>
                   `;
     }
-    outputUl += '</ul>';
-    
+    outputUl += "</ul>";
+
     divHtml += `
                 <div class="s2_layout-div">
                   <h4><strong>Door: </strong>${door.name}</h4>
-                  <p><strong>Box:</strong> ${door.box} ${door.ip} <br><strong>Blade:</strong> ${door.blade}</p>
+                  <p><strong>Box:</strong> ${door.box} <br><strong>Blade:</strong> ${door.blade}</p>
                   <p><strong>Reader:</strong> ${door.reader}</p>
                   ${inputUl}
                   ${outputUl}
                 </div>
                 `;
-    
+
     html += divHtml;
   });
 
   return html;
-};
-
+}
 
 /* <h3>First Floor Ext IDF</h3>
 <div class="s2_layout-div">
