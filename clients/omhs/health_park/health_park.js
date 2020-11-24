@@ -7,14 +7,16 @@ let omhsHealthParkFirstFloorExt = {
     {
       name: 'Outpatient Imaging Corridor (iMXDa\'s w/opener)',
       box: 1,
+      ip: '(xxx.xxx.15.249)',
       blade: 4,
       reader: 1,
-      inputs: ['DPS', 'REX', null, 'From output 1'],
-      outputs: ['To Input 4', 'Follower - onValidCardRead (white cable grn/wht)', 'Bypass +24v (lock cable - white)', 'Reset +24v (lock cable green)']
+      inputs: ['DPS', 'REX', 'Not Used', 'From output 1'],
+      outputs: ['To Input 4', 'Follower - onValidCardRead (white cable grn/wht)', 'Bypass +24v (lock cable - white)', 'Reset +24v (lock cable - green)']
     },
     {
       name: 'Ford Center Rear Hallay',
       box: 1,
+      ip: '(xxx.xxx.15.249)',
       blade: 5,
       reader: 1, 
       inputs: ['DPS', 'REX', null, null],
