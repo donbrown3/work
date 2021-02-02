@@ -1,0 +1,13 @@
+a { margin-left: 0.5em; }
+
+#img_container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+}
+
+p { 
+  margin-left: 0.5em;
+  margin-bottom: 0.5em;
+}
