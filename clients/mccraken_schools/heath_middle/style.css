@@ -10,4 +10,14 @@ a { margin-left: 0.5em; }
 p { 
   margin-left: 0.5em;
   margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+
+ul {
+  margin-left: 2em;
+  margin-right: 1.5em;
+}
+
+ul li {
+  padding-bottom: 0.4em;
 }
