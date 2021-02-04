@@ -7,17 +7,17 @@ a { margin-left: 0.5em; }
   margin: 0 auto;
 }
 
-p { 
+#info_section p, #image_section p { 
   margin-left: 0.5em;
   margin-bottom: 0.5em;
   margin-top: 0.5em;
 }
 
-ul {
+#info_section ul {
   margin-left: 2em;
   margin-right: 1.5em;
 }
 
-ul li {
+#info_section ul li {
   padding-bottom: 0.4em;
 }
