@@ -1,0 +1,28 @@
+a { margin-left: 0.5em; }
+
+#img_container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#info_section p, #image_section p { 
+  margin-left: 0.5em;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+  line-height: 1.4;
+}
+
+#info_section p {
+  text-indent: 0.8em;
+}
+
+#info_section ul {
+  margin-left: 2em;
+  margin-right: 1.5em;
+}
+
+#info_section ul li {
+  padding-bottom: 0.4em;
+}
