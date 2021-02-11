@@ -1,0 +1,25 @@
+#requirements_section {
+  line-height: 1.3;
+  margin-bottom: 3em;
+}
+
+#requirements_section h3 {
+  margin-top: 2em;
+  color: darkgreen
+}
+
+#requirements_section h3:first-of-type {
+  margin-top: 1em;
+}
+
+#requirements_section ul {
+  margin-left: 2em;
+  margin-right: 1em;
+}
+#requirements_section ul ul {
+  margin-bottom: 1em;
+}
+
+#requirements_section ul ul li:nth-of-type(odd) {
+  background-color: #dfdfdf;
+}

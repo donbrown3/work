@@ -34,8 +34,11 @@
       integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw=="
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/50ffcbd4f2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/50ffcbd4f2.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Heath Middle School</title>
   </head>
   <body>
@@ -61,9 +64,7 @@
     <main>
       <section id="image_section">
         <h2>Heath Alternative School</h2>
-        <p>
-          click on an image to open gallery
-        </p>
+        <p>click on an image to open gallery</p>
         <div id="img_container">
           <a
             href="images/door1_1500_2000.JPG"
@@ -95,19 +96,39 @@
             data-caption="Door 2 close up"
             ><img src="images/door2_close_thum.JPG" alt=""
           /></a>
-
         </div>
       </section>
       <section id="info_section">
         <p>
-          Laching crash bars on double entry doors. 1' gap between frame and crash bar. 9000 series strikes likely
+          Laching crash bars on double entry doors. 1' gap between frame and
+          crash bar. 9000 series strikes likely
         </p>
         <h3>Info</h3>
         <ul>
           <li>print is labeled as heath intermediate school</li>
           <li>wiremold,various wiremold boxes, wiremold fitings</li>
           <li>Door 1 - standard reader</li>
-          <li>Door 2 - mullion reader</li>    
+          <li>Door 2 - mullion reader</li>
+        </ul>
+        <h3>Hardware requirements</h3>
+        <ul>
+          <li>
+            Door 1:
+            <ul>
+              <li>9600 strike</li>
+              <li>recessed DPS</li>
+              <li>standard reader</li>
+            </ul>
+          </li>
+          <li>
+            Door 2:
+            <ul>
+              <li>9600 strike</li>
+              <li>recessed DPS</li>
+              <li>mullion reader</li>
+            </ul>
+          </li>
+          <li>Wiremold, various Wiremold boxes, Wiremold fitings</li>
         </ul>
       </section>
     </main>
@@ -132,9 +153,9 @@
         $("#main_nav").slicknav({ prependTo: "#mobile_nav" });
 
         $('[data-fancybox="gallary"]').fancybox({
-          mobile : {
-            arrows: false
-          }
+          mobile: {
+            arrows: false,
+          },
         });
       });
     </script>
